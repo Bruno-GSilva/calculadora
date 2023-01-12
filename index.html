@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>calculadora</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div id="calc">
+      <div id="visor">
+        <p>number here ...</p>
+      </div>
+      <div id="teclado">
+        <div id="teclado-simbolos1">
+          <!-- apagar tudo -->
+          <button onclick="#" class="tecla" id="apagar"> AC</button>
+          <!-- colocar parenteses -->
+          <button onclick="#" class="tecla" id="parenteses"> ( )</button>
+          <!-- porcentagem -->
+          <button onclick="#" class="tecla" id="porcentagem"> %</button>
+          <!-- dividir -->
+          <button onclick="dividir()" class="tecla" id="dividir"> /</button>
+          
+          <!-- num 7 -->
+          <button class="tecla" id="num7"> 7</button>
+          <!-- num 8 -->
+          <button class="tecla" id="num8"> 8</button>
+          <!-- num 9 -->
+          <button class="tecla" id="num9"> 9</button>
+          
+          <!-- multiplicar -->
+          <button onclick="multiplicar()" class="tecla" id="multiplicar"> x</button>
+          
+          <!-- num 4 -->
+          <button class="tecla" id="num4"> 4</button>
+          <!-- num 5 -->
+          <button class="tecla" id="num5" >5</button>
+          <!-- num 6 -->
+          <button class="tecla" id="num6" >6</button>
+          
+          <!-- subtrair -->
+          <button onclick="subtrair()" class="tecla" id="subtrair" >-</button>
+          
+          <!-- num 1 -->
+          <button class="tecla" id="num1" >1</button>
+          <!-- num 2 -->
+          <button class="tecla" id="num2" >2</button>
+          <!-- num 3 -->
+          <button class="tecla" id="num3" >3</button>
+          
+          <!-- somar -->
+          <button onclick="somar()" class="tecla" id="somar" >+</button>
+          
+          <!-- num 0 -->
+          <button class="tecla" id="num0" >0</button>
+          
+          <!-- simbolo "," -->
+          <button onclick="#" class="tecla" id="virgula" >,</button>
+          <!-- apagar ultimo digito -->
+          <button onclick="deletar()" class="tecla" id="del" >del</button>
+          <!-- mostrar resultado -->
+          <button onclick="resultado()" class="tecla" id="result" >=</button>
+        </div>
+        </div>
+      </div>
+    <script src="script/script.js"></script>
+  </body>
+</html>
